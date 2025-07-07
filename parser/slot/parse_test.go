@@ -3,8 +3,8 @@ package slot_test
 import (
 	"testing"
 
-	"github.com/yumaojun03/dmidecode/parser/slot"
-	"github.com/yumaojun03/dmidecode/smbios"
+	"github.com/yxxhero/dmidecode/parser/slot"
+	"github.com/yxxhero/dmidecode/smbios"
 
 	"github.com/stretchr/testify/assert"
 )

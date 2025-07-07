@@ -1,6 +1,6 @@
 MAIN_FILE := "cmd/main.go"
 PROJECT_NAME := "dmidecode"
-PKG := "github.com/yumaojun03/$(PROJECT_NAME)"
+PKG := "github.com/yxxhero/$(PROJECT_NAME)"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
 

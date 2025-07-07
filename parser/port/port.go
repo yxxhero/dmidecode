@@ -3,7 +3,7 @@ package port
 import (
 	"fmt"
 
-	"github.com/yumaojun03/dmidecode/smbios"
+	"github.com/yxxhero/dmidecode/smbios"
 )
 
 // Information port信息

@@ -3,7 +3,7 @@ package memory
 import (
 	"fmt"
 
-	"github.com/yumaojun03/dmidecode/smbios"
+	"github.com/yxxhero/dmidecode/smbios"
 )
 
 // MemoryDevice 内存设备
@@ -82,7 +82,7 @@ func (m MemoryDevice) String() string {
 	)
 }
 
-//The value is in kilobytes
+// The value is in kilobytes
 func (m MemoryDevice) ActualSize() uint32 {
 	if m.Size == 0 || m.Size == 0xFFFF {
 		return 0

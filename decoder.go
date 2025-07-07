@@ -3,21 +3,21 @@ package dmidecode
 import (
 	"fmt"
 
-	"github.com/yumaojun03/dmidecode/parser/power"
+	"github.com/yxxhero/dmidecode/parser/power"
 
-	"github.com/yumaojun03/dmidecode/parser/baseboard"
-	"github.com/yumaojun03/dmidecode/parser/battery"
-	"github.com/yumaojun03/dmidecode/parser/bios"
-	"github.com/yumaojun03/dmidecode/parser/chassis"
-	"github.com/yumaojun03/dmidecode/parser/memory"
-	"github.com/yumaojun03/dmidecode/parser/oem"
-	"github.com/yumaojun03/dmidecode/parser/onboard"
-	"github.com/yumaojun03/dmidecode/parser/port"
-	"github.com/yumaojun03/dmidecode/parser/processor"
-	"github.com/yumaojun03/dmidecode/parser/slot"
-	"github.com/yumaojun03/dmidecode/parser/system"
-	"github.com/yumaojun03/dmidecode/parser/tpm"
-	"github.com/yumaojun03/dmidecode/smbios"
+	"github.com/yxxhero/dmidecode/parser/baseboard"
+	"github.com/yxxhero/dmidecode/parser/battery"
+	"github.com/yxxhero/dmidecode/parser/bios"
+	"github.com/yxxhero/dmidecode/parser/chassis"
+	"github.com/yxxhero/dmidecode/parser/memory"
+	"github.com/yxxhero/dmidecode/parser/oem"
+	"github.com/yxxhero/dmidecode/parser/onboard"
+	"github.com/yxxhero/dmidecode/parser/port"
+	"github.com/yxxhero/dmidecode/parser/processor"
+	"github.com/yxxhero/dmidecode/parser/slot"
+	"github.com/yxxhero/dmidecode/parser/system"
+	"github.com/yxxhero/dmidecode/parser/tpm"
+	"github.com/yxxhero/dmidecode/smbios"
 )
 
 // New 实例化
