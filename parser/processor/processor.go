@@ -3,7 +3,7 @@ package processor
 import (
 	"fmt"
 
-	"github.com/yumaojun03/dmidecode/smbios"
+	"github.com/yxxhero/dmidecode/smbios"
 )
 
 // Processor CPU信息

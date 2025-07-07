@@ -4,12 +4,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yumaojun03/dmidecode/smbios"
+	"github.com/yxxhero/dmidecode/smbios"
 )
 
 // Information 设备信息 (smbios < 2.6)
 // 参考: https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.1.1.pdf
-//      7.11 On Board Devices Information (Type 10, Obsolete)
+//
+//	7.11 On Board Devices Information (Type 10, Obsolete)
 type Information struct {
 	smbios.Header
 	Devices []Device `json:"devices,omitempty"`

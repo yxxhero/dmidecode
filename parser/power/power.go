@@ -2,7 +2,8 @@ package power
 
 import (
 	"fmt"
-	"github.com/yumaojun03/dmidecode/smbios"
+
+	"github.com/yxxhero/dmidecode/smbios"
 )
 
 type SupplyCharacteristics uint16

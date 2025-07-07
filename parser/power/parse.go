@@ -1,8 +1,9 @@
 package power
 
 import (
-	"github.com/yumaojun03/dmidecode/smbios"
 	"strings"
+
+	"github.com/yxxhero/dmidecode/smbios"
 )
 
 func Parse(s *smbios.Structure) (info *Information, err error) {

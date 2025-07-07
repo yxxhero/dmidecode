@@ -1,6 +1,6 @@
 MAIN_FILE := "cmd/main.go"
 PROJECT_NAME := "dmidecode"
-PKG := "github.com/yumaojun03/$(PROJECT_NAME)"
+PKG := "github.com/yxxhero/$(PROJECT_NAME)"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
 
@@ -25,7 +25,7 @@ test-coverage: ## Run tests with coverage
 	@cat cover.out >> coverage.txt
 
 build: dep ## Build the binary file
-	@go build -i -o dist/$(PROJECT_NAME) $(MAIN_FILE)
+	@go build -o dist/$(PROJECT_NAME) $(MAIN_FILE)
 
 linux:
 	GOOS=linux GOARCH=amd64 go build -o dist/$(PROJECT_NAME) $(MAIN_FILE) 
