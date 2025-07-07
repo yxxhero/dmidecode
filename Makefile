@@ -25,7 +25,7 @@ test-coverage: ## Run tests with coverage
 	@cat cover.out >> coverage.txt
 
 build: dep ## Build the binary file
-	@go build -i -o dist/$(PROJECT_NAME) $(MAIN_FILE)
+	@go build -o dist/$(PROJECT_NAME) $(MAIN_FILE)
 
 linux:
 	GOOS=linux GOARCH=amd64 go build -o dist/$(PROJECT_NAME) $(MAIN_FILE) 
